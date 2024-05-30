@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>文本生成器</title>
+    <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+<body>
+    <div>
+        <label for="context">context:</label>
+        <textarea id="context" placeholder="相关的背景信息，你自己或是你希望它完成的任务的信息"></textarea>
+    </div>
+    <div>
+        <label for="object">object:</label>
+        <textarea id="object" placeholder="非常明确的指示，关于他要做什么"></textarea>
+    </div>
+    <div>
+        <label for="style">style:</label>
+        <textarea id="style" placeholder="写作风格。如说唱风格，顶级CEO风格"></textarea>
+    </div>
+    <div>
+        <label for="tone">tone:</label>
+        <textarea id="tone" placeholder="回答语调。如幽默，威胁等"></textarea>
+    </div>
+    <div>
+        <label for="audience">audience:</label>
+        <textarea id="audience" placeholder="听众是谁。如5岁的孩子，世界级物理学家"></textarea>
+    </div>
+    <div>
+        <label for="response">response:</label>
+        <textarea id="response" placeholder="想要的回应类型。详细的研究报告？表格？代码？JSON格式或只是文字等等"></textarea>
+    </div>
+    <button id="generate">生成文本</button>
+    <button id="clear">清除输入</button>
+    <div>
+        <textarea id="output" readonly></textarea>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>

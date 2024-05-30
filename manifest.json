@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "文本生成器",
+    "version": "1.0",
+    "description": "根据提供的上下文、对象、风格、语调、听众和响应生成结构化文本。",
+    "permissions": ["storage"],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "icon16.png",
+            "48": "icon48.png",
+            "128": "icon128.png"
+        }
+    },
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    }
+}
